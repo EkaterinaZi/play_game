@@ -1,11 +1,15 @@
+body{
+    padding-top: 45px;
+    background-color: rgba(217, 223, 248, 0.5);
+}
 div{
+
     box-sizing:border-box;
 }
 .fraim{
     position: relative;
     width: 600px;
     height: 600px;
-    border: 5px solid red;
     margin: auto;
 }
 
@@ -13,14 +17,18 @@ div{
     position: absolute;
     top: 0;
     bottom: 0;
+
     transition: all 0.5s;
     width: 25%;
     height: 25%;
-    border: 2px solid pink;
-    border-radius: 30%;
-    font-size: 100px;
-    padding: 10px;
-    text-align: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    background-color: pink;
+
+    user-select: none;
+
+    font-family: 'Saira', sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    box-shadow: inset 4px 4px 10px rgba(255, 241, 254, 0.5), inset -4px -4px 4px rgba(0, 0, 0, 0.25);
 }
